@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpFastCache/phpFastCache": "^4.3",
+        "slim/slim": "^3.3",
+        "rmccue/requests": "^1.6",
+        "olamedia/nokogiri": "^1.0",
+        "slender/route-manager": "^0.0.1",
+        "slender/module-loader": "^0.0.1",
+        "yosymfony/config-loader": "^1.3"
+    }
+}

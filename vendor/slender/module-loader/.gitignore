@@ -1,0 +1,7 @@
+.idea
+.DS_Store
+vendor
+composer.lock
+example/config.cache
+.vagrant/
+Vagrantfile

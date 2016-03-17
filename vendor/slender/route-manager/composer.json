@@ -1,0 +1,26 @@
+{
+    "name": "slender/route-manager",
+    "type": "library",
+    "description": "RouteManager module for Slender",
+    "keywords": ["slender-module","route","routing","router"],
+    "license": "MIT",
+    "version": "0.0.1",
+    "homepage": "http://alanpich.github.io/slender",
+    "authors": [
+        {
+            "name": "Alan Pich",
+            "email": "alan.pich@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "slender/slender": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Slender\\Module\\RouteManager\\": "src/"
+        }
+    }
+}

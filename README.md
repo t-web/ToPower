@@ -9,10 +9,11 @@ composer require phpFastCache/phpFastCache
 https://github.com/PHPSocialNetwork/phpfastcache
 
 
-基于框架搭建
-
-http://www.slimframework.com/
-
+基于Silex框架搭建,采取插件模式开发，便于协作开发。
+包含第三方库
+数据缓存
+https://github.com/PHPSocialNetwork/phpfastcache
+html解析器
 https://github.com/olamedia/nokogiri
 
 

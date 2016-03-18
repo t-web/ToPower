@@ -6,6 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Twig_' => array($vendorDir . '/twig/twig/lib'),
+    'Slim' => array($vendorDir . '/slim/slim'),
     'Requests' => array($vendorDir . '/rmccue/requests/library'),
-    'Pimple' => array($vendorDir . '/pimple/pimple/src'),
+    'Psr\\Log\\' => array($vendorDir . '/psr/log'),
+    'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
+    'MJanssen\\' => array($vendorDir . '/marcojanssen/silex-routing-service-provider/src'),
+    'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),
+    'Cron' => array($vendorDir . '/mtdowling/cron-expression/src'),
 );

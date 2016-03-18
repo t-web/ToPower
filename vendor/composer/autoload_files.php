@@ -6,6 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '253c157292f75eb38082b5acb06f3f01' => $vendorDir . '/nikic/fast-route/src/functions.php',
-    '51987f693910d149d6d4c14b80d1702e' => $vendorDir . '/phpfastcache/phpfastcache/src/autoload.php',
+    $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
+    $vendorDir . '/illuminate/support/helpers.php',
+    $vendorDir . '/symfony/polyfill-php56/bootstrap.php',
+    $vendorDir . '/paragonie/random_compat/lib/random.php',
+    $vendorDir . '/nikic/fast-route/src/functions.php',
+    $vendorDir . '/laravel/lumen-framework/src/helpers.php',
+    $vendorDir . '/phpfastcache/phpfastcache/src/autoload.php',
 );

@@ -1,0 +1,11 @@
+<?php
+namespace ToPower;
+class tClass {
+    public function __construct() {
+       echo  "内容返回";
+    }
+  public function demo() {
+   return  "www";
+  }      
+  
+}

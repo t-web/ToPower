@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'IlluminateQueueClosure' => $vendorDir . '/illuminate/queue/IlluminateQueueClosure.php',
     'nokogiri' => $vendorDir . '/olamedia/nokogiri/nokogiri.php',
 );

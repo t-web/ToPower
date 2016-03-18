@@ -1,0 +1,7 @@
+home:
+  path: /
+  defaults: { _controller: 'controller\Controller::index' }
+
+hello:
+  path: /post/{post_id}
+  defaults: { _controller: 'Rafamaciel\BlogController::postAction' }
